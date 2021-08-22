@@ -11,6 +11,11 @@
 		B2FCF11526D230D0004EB6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF11426D230D0004EB6F5 /* ContentView.swift */; };
 		B2FCF11726D230D2004EB6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FCF11626D230D2004EB6F5 /* Assets.xcassets */; };
 		B2FCF11A26D230D2004EB6F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FCF11926D230D2004EB6F5 /* Preview Assets.xcassets */; };
+		B2FCF12426D2342F004EB6F5 /* ChatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF12326D2342F004EB6F5 /* ChatRowView.swift */; };
+		B2FCF12626D2367A004EB6F5 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF12526D2367A004EB6F5 /* ChatModel.swift */; };
+		B2FCF12926D23BF4004EB6F5 /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF12826D23BF4004EB6F5 /* Date+extension.swift */; };
+		B2FCF12B26D24013004EB6F5 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF12A26D24013004EB6F5 /* ChatViewModel.swift */; };
+		B2FCF12D26D243FA004EB6F5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FCF12C26D243FA004EB6F5 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B2FCF11426D230D0004EB6F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2FCF11626D230D2004EB6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FCF11926D230D2004EB6F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2FCF12326D2342F004EB6F5 /* ChatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowView.swift; sourceTree = "<group>"; };
+		B2FCF12526D2367A004EB6F5 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		B2FCF12826D23BF4004EB6F5 /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		B2FCF12A26D24013004EB6F5 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		B2FCF12C26D243FA004EB6F5 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,10 @@
 		B2FCF11126D230D0004EB6F5 /* Todus-Swiftui3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				B2FCF12726D23BDF004EB6F5 /* Extension */,
+				B2FCF12226D231A0004EB6F5 /* ViewsModels */,
+				B2FCF12126D23198004EB6F5 /* Models */,
+				B2FCF12026D2318B004EB6F5 /* Views */,
 				B2FCF11226D230D0004EB6F5 /* Todus_Swiftui3_0App.swift */,
 				B2FCF11426D230D0004EB6F5 /* ContentView.swift */,
 				B2FCF11626D230D2004EB6F5 /* Assets.xcassets */,
@@ -65,6 +79,39 @@
 				B2FCF11926D230D2004EB6F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2FCF12026D2318B004EB6F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCF12326D2342F004EB6F5 /* ChatRowView.swift */,
+				B2FCF12C26D243FA004EB6F5 /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2FCF12126D23198004EB6F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCF12526D2367A004EB6F5 /* ChatModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2FCF12226D231A0004EB6F5 /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCF12A26D24013004EB6F5 /* ChatViewModel.swift */,
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
+		B2FCF12726D23BDF004EB6F5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCF12826D23BF4004EB6F5 /* Date+extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FCF12426D2342F004EB6F5 /* ChatRowView.swift in Sources */,
 				B2FCF11526D230D0004EB6F5 /* ContentView.swift in Sources */,
+				B2FCF12926D23BF4004EB6F5 /* Date+extension.swift in Sources */,
 				B2FCF11326D230D0004EB6F5 /* Todus_Swiftui3_0App.swift in Sources */,
+				B2FCF12D26D243FA004EB6F5 /* ChatView.swift in Sources */,
+				B2FCF12B26D24013004EB6F5 /* ChatViewModel.swift in Sources */,
+				B2FCF12626D2367A004EB6F5 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
