@@ -47,37 +47,37 @@ struct Message: Identifiable {
 
 extension Chat {
     static let sampleData = [
-        Chat(person: Person(name: "Hakim", imgString: "image"),
+        Chat(person: Person(name: "Alexa", imgString: "p1"),
              messages: [
-                Message("hey hakim", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
+                Message("hey alexa", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("I am jsut developing an todus Clone and its so hard to create a fake chat conversation.", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("Sure. i can do that", type: .Received, date: Date(timeIntervalSinceNow: -86400 * 2)),
                 Message("Let me try one", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 2))],
              hasUnreadMessage: true),
-        Chat(person: Person(name: "Wilver", imgString: "image"),
+        Chat(person: Person(name: "Wilber", imgString: "p6"),
              messages: [
-                Message("hey hakim", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
+                Message("hey wilber", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("I am jsut developing an todus Clone and its so hard to create a fake chat conversation.", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("Sure. i can do that", type: .Received, date: Date(timeIntervalSinceNow: -86400 * 2)),
                 Message("Let me try one", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 2))],
              hasUnreadMessage: true),
-        Chat(person: Person(name: "Hakim", imgString: "image"),
+        Chat(person: Person(name: "Karla", imgString: "p3"),
              messages: [
-                Message("hey hakim", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
+                Message("hey karla", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("I am jsut developing an todus Clone and its so hard to create a fake chat conversation.", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("Sure. i can do that", type: .Received, date: Date(timeIntervalSinceNow: -86400 * 2)),
                 Message("Let me try one", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 2))],
              hasUnreadMessage: true),
         Chat(person: Person(name: "Asiel Cabrera", imgString: "image"),
              messages: [
-                Message("hey hakim", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
+                Message("hey Asiel Cabrera", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("I am jsut developing an todus Clone and its so hard to create a fake chat conversation.", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("Sure. i can do that", type: .Received, date: Date(timeIntervalSinceNow: -86400 * 2)),
                 Message("Let me try one", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 2))],
              hasUnreadMessage: true),
-        Chat(person: Person(name: "Hakim", imgString: "image"),
+        Chat(person: Person(name: "Raro", imgString: "p4"),
              messages: [
-                Message("hey hakim", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
+                Message("hey Raro", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("I am jsut developing an todus Clone and its so hard to create a fake chat conversation.", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 3)),
                 Message("Sure. i can do that", type: .Received, date: Date(timeIntervalSinceNow: -86400 * 2)),
                 Message("Let me try one", type: .Sent, date: Date(timeIntervalSinceNow: -86400 * 2))],
